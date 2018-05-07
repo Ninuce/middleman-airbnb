@@ -1,0 +1,41 @@
+<div class="container home">
+	<div class="row">
+		<div class="col-sm-10 col-sm-offset-1 col-xs-12">
+			<h1 class="text-center">Buddy of the day: Dominik Neumann</h1>
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-2 col-xs-12">
+					<p>Originally from Düsseldorf. Bachelor of Science in General Management. Internships in Venture Capital, Company Building, FinTech & Consulting. Master in Management from September 2018 upon Madrid.</p>
+				</div>
+<!--
+				<div class="col-sm-6 col-xs-12 ">
+					<img class="avatar avatar-center" src="https://avatars0.githubusercontent.com/u/37957237?v=4" alt="Dominik" height="100px;">
+				</div> -->
+
+				<!-- <ul class="list-inline text-center"> -->
+
+				<div class="col-sm-8 col-sm-offset-2 col-xs-12">
+					<ul class="list-inline text-center">
+					  <% ["Ninuce", "DominikNe1995"].each do |gh_username| %>
+					    <li>
+					      <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle avatar" %>
+					      <h3><%= gh_username.capitalize %></h3>
+					    </li>
+					  <% end %>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!--
+<ul class="list-inline text-center">
+  <% ["papillard", "ssaunier", "monsieurpaillard"].each do |gh_username| %>
+    <li>
+      <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+      <h3><%= gh_username.capitalize %></h3>
+    </li>
+  <% end %>
+</ul> -->
